@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48.99978 35.2175">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #f8f7f7;
+      }
+
+      .cls-3 {
+        mask: url(#mask);
+      }
+    </style>
+    <mask id="mask" x="1.22941" y="19.47099" width="46.54074" height="15.74651" maskUnits="userSpaceOnUse">
+      <g id="mask-2">
+        <polygon id="path-1" class="cls-1" points="1.229 35.217 47.77 35.217 47.77 19.471 1.229 19.471 1.229 35.217"/>
+      </g>
+    </mask>
+  </defs>
+  <title>Page-1 (2)</title>
+  <g id="Calque_2" data-name="Calque 2">
+    <g id="Calque_1-2" data-name="Calque 1">
+      <g id="Page-1">
+        <g id="Desktop-HD-Copy-3">
+          <g id="contact">
+            <g id="tel_mail" data-name="tel/mail">
+              <g id="mail_icon" data-name="mail icon">
+                <path id="Fill-1" class="cls-2" d="M48.93554,4.63287l-13.806,12.97572L48.935,30.58538a5.3428,5.3428,0,0,0,.06479-.78616V5.418a5.32847,5.32847,0,0,0-.06424-.78508"/>
+                <path id="Fill-3" class="cls-2" d="M27.523,21.02966,47.76983,2.00035A5.44593,5.44593,0,0,0,43.55528,0H5.44417A5.45078,5.45078,0,0,0,1.22908,1.99981L21.47643,21.0302a4.533,4.533,0,0,0,6.0466-.00054"/>
+                <path id="Fill-5" class="cls-2" d="M.06424,4.63179A5.41938,5.41938,0,0,0,0,5.418V29.79922a5.41914,5.41914,0,0,0,.06424.78616l13.806-12.97788Z"/>
+                <g id="Group-9">
+                  <g class="cls-3">
+                    <path id="Fill-7" class="cls-2" d="M29.39243,22.99977a7.24082,7.24082,0,0,1-9.78475,0L15.85319,19.471,1.22941,33.21715A5.45124,5.45124,0,0,0,5.4445,35.2175H43.55561a5.44927,5.44927,0,0,0,4.21454-2.00035L33.14692,19.47153Z"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

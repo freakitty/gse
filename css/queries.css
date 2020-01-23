@@ -1,0 +1,44 @@
+
+@media screen and (min-width:1440px){
+    .climHome{top: 20%; width: 70%;}
+    .moduleHome{top: 39%; right: -5%; width: 32%;}
+    h1{font-size: 3em; line-height: 55px;}
+    #catch p{font-size: 2em; line-height: 40px;}
+    #produits{height: 270vh;}
+    .pattern{width: 55px;}
+    h2{font-size: 2.8em;}
+    .titlepac{top: 100px;}
+    .sub{font-size: 1.5em; line-height: 35px; margin-left: 80px;}
+    .txt{width: 500px; font-size: 1.2em;line-height: 35px;margin-left: 80px;}
+    #housepac{width: 55%;}
+    .module img{margin-left:120px;}
+    #brand img{max-width: 200px;}
+    .notreHistoire{height: 400px; width: 500px;}
+    .titreHist{font-size: 2.5em;}
+    #presentation{margin:20px 20px 20px 70px;}
+    #histImg{width: 40%; left:12%;}
+    iframe{width: 600px; height: 400px;}
+    #mailPhone{font-size: 1.2em; top: -38%;}
+    #scrollTop{top: -10%;}
+}
+
+@media screen and (min-height:1366px){
+    .moduleHome{display: none;}
+    .poly{display: none;}
+    .climHome{left: 22%; width: 100%;}
+    .pattern{width: 55px;}
+    h1{font-size: 3em; line-height: 60px; margin-top: 15px;}
+    #catch p{font-size: 2.2em; line-height: 45px;}
+    .afford svg{width: 30px;}
+    .bgPac{min-height: calc(70vh - 150px);}
+    .titlepac{top: 120px;}
+    .desc{width: 300px;}
+    #produits{height: 165vh;}
+    #histImg{left: 10%; width: 40%;}
+    .notreHistoire{left: 47%;}
+    iframe{width: 700px; height: 500px;}
+    #map{margin: 150px 10px 10px 158px;}
+    #mailPhone{top: 150px; left: 50%; transform: translateX(-50%); display: inline-block;font-size: 1.2em;}
+    #map p{font-size: 1.2em; margin-top: 20px; line-height: 30px;}
+    body{overflow-x:hidden; }
+}
