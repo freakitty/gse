@@ -94,6 +94,7 @@
 }
 
 @media screen and (max-width:480px){
+    .bgHome{min-height: calc(105vh - 45px);}
     #logo{display: none;}
     #logo_resp{display: inline-block;}
     #catch{top: 38%; left: 50px;}
@@ -137,7 +138,6 @@
 }
 
 @media screen and (max-width:414px){
-    .bgHome{min-height: calc(105vh - 45px);}
     #mail{width: 200px; font-size: .9em; line-height: 50px; font-weight: 300;}
     #sticky{right: -80px;}
     #logo_resp{width: 10%; margin: 9px;}
@@ -170,4 +170,18 @@
     #mailPhone{top: 25px;}
     #mailPhone img, #mailPhone svg{width: 30px;}
     #scrollTop{left: 80%;}
+}
+
+@media screen and (max-width:375px){
+    #nav ul{margin-left: 20px;}
+    #housepac{width: 40%;}
+    .digit.visible{left: 65%;}
+    .titlepac{top: 30px;}
+    .sub{width: 240px; font-size: 1em;}
+    .desc h4{font-size: 1.3em; margin-bottom: 10px;}
+    .desc{padding: 20px;}
+    .desc p{width: 200px;}
+    h2{font-size: 2em; margin-left:10px;}
+    .module{margin-bottom: 80px;}
+    #produits{height:325vh;}
 }
