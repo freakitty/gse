@@ -22,7 +22,7 @@
     #scrollTop{top: -10%;}
 }
 
-@media screen and (max-height:1366px){
+@media screen and (min-height:1366px){
     .moduleHome{display: none;}
     .poly{display: none;}
     .climHome{left: 22%; width: 100%;}
@@ -31,6 +31,7 @@
     #catch p{font-size: 2.2em; line-height: 45px;}
     .afford svg{width: 30px;}
     .bgPac{min-height: calc(70vh - 150px);}
+    .digit.visible{left: 53%;}
     .titlepac{top: 120px;}
     .desc{width: 300px;}
     #produits{height: 165vh;}
@@ -45,14 +46,15 @@
 }
 
 @media screen and (max-width:768px){
+    body{overflow-x: hidden;}
     #logo{left: 20px;}
     #nav ul li{width: 120px;}
     .moduleHome{display: none;}
     .poly{display: none;}
     .climHome{left: 22%; width: 100%;}
     .pattern{width: 55px;}
-    h1{font-size: 2.5em;}
-    #catch p{font-size: 2em;}
+    h1{font-size: 2.3em;}
+    #catch p{font-size: 1.9em;}
     nav ul li{width: 200px;}
     nav ul ul li{width: 180px;}
     nav p{font-size: .8em; line-height: 70px;}
@@ -85,9 +87,87 @@
     #qualifications{margin: 50px;}
     .card p{font-size: .9em; line-height: 22px; margin: 0 20px;}
     .card{width: 200px; height: 350px;}
-    #mailPhone{top: 50px; left: 50%;}
+    #mailPhone{top: 50px; left: 30%;}
     #scrollTop{top: 8%;}
     iframe{width: 500px; height: 300px;}
     #map{margin: 150px 10px 10px 148px;}
 }
 
+@media screen and (max-width:480px){
+    #logo{display: none;}
+    #logo_resp{display: inline-block;}
+    #catch{top: 38%; left: 50px;}
+    .pattern{width: 45px;}
+    h1{font-size: 2em; line-height: 50px;}
+    #catch p{font-size: 1.5em; line-height: 35px;}
+    .afford svg{bottom: 10%;}
+    nav{margin: 50px;}
+    .chauf_list{top: 182px;}
+    .vent_list{top: 272px;}
+    .bannerHidePac svg{width: 200px;}
+    .title{left: 35px;}
+    .titlepac{top: 50px;}
+    .bgPac{min-height: calc(120vh - 50px);}
+    .bgPac h2{width: 220px; line-height: 40px;}
+    .sub{width: 260px; font-size: 1.1em;}
+    .digit.visible{top: 350px; left: 58%;}
+    .txt{width: 260px;}
+    #produits{height: 285vh;}
+    #modules{margin: 80px 0 0 20px;}
+    .revealNumber{font-size: 4em;}
+    #brand img{margin: 10px;}
+    #brand{padding: 30px 20px;}
+    #histImg{margin: 20px 0 0 100px;}
+    .notreHistoire{left: 50%; transform: translateX(-50%); top: 110px;}
+    #presentation{margin: 20px 20px 20px 40px;}
+    #valeurs{margin: 150px 20px 0 20px;}
+    #icon_ecolo{width: 40px; margin-bottom: 30px;}
+    h5{font-size: 1.3em;}
+    .items p{width: 110px;}
+    .items img{width: 55px;}
+    #qualifications{margin: 40px; flex-wrap: wrap;}
+    .card{width: 350px; height: 250px; margin-bottom: 25px;}
+    .card img{width: 20%; margin: 30px 0 20px 0;}
+    .titleContact .sub{width: 350px;}
+    #map{margin: 150px 10px 10px 40px;}
+    iframe{width: 400px; height: 300px;}
+    #phone{margin-bottom: 40px;}
+    #mailPhone{left: 15%;}
+    #scrollTop{left: 85%;}
+}
+
+@media screen and (max-width:414px){
+    .bgHome{min-height: calc(105vh - 45px);}
+    #mail{width: 200px; font-size: .9em; line-height: 50px; font-weight: 300;}
+    #sticky{right: -80px;}
+    #logo_resp{width: 10%; margin: 9px;}
+    #nav{font-size: .8em;}
+    #nav ul li{width: 110px;}
+    h1{line-height: 40px; font-size: 1.8em;}
+    #catch{left: 40px;}
+    #catch p{font-size: 1.3em;}
+    .bannerHidePac svg{display: none;}
+    .bgPac h2{width: 320px;}
+    .txt{width: 300px;}
+    .digit.visible{top: 90px; left: 60%;}
+    #housepac{width: 45%;}
+    #flower{width: 40px; top: 20px;}
+    .desc{padding: 30px 50px 30px 30px;}
+    .revealNumber{font-size: 3em;}
+    #modules{margin: 80px 0 0 15px;}
+    #produits{height: 310vh;}
+    .notreHistoire{width: 300px; padding: 20px;}
+    #presentation{margin: 15px;}
+    #icon_ecolo{width: 30px;}
+    .items img{width: 45px;}
+    .titleQuali{margin-top: 50px;}
+    .pattern{margin-bottom: 15px;}
+    .titleQuali p{font-size: 1em;}
+    #qualifications{margin: 20px;}
+    iframe{width: 350px; height: 250px;}
+    #map{margin: 130px 10px 10px 30px;}
+    #phone{margin-bottom: 20px;}
+    #mailPhone{top: 25px;}
+    #mailPhone img, #mailPhone svg{width: 30px;}
+    #scrollTop{left: 80%;}
+}

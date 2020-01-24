@@ -45,7 +45,7 @@ new ScrollMagic.Scene({
 
 new ScrollMagic.Scene({
     triggerElement: "#qualifications",
-    triggerHook: 0.9,
+    triggerHook: 0.7,
     duration: "80%",
     offset: 50
 })
@@ -78,8 +78,7 @@ $(".dropVent").click(function () {
     downMenu();
 });
 
-
-
+/* ============================= SCROLL TOP ================================ */
 
 $("#scrollTop").click(function(){
     $("body,html").animate(

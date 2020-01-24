@@ -25,6 +25,12 @@ header{
     cursor: pointer;
 }
 
+#logo_resp{
+    width: 9%;
+    margin: 6px;
+    display: none;
+}
+
 #nav{
     position: relative;
     top: -50%;
