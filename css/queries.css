@@ -22,7 +22,7 @@
     #scrollTop{top: -10%;}
 }
 
-@media screen and (min-height:1366px){
+@media screen and (max-height:1366px){
     .moduleHome{display: none;}
     .poly{display: none;}
     .climHome{left: 22%; width: 100%;}
@@ -40,5 +40,54 @@
     #map{margin: 150px 10px 10px 158px;}
     #mailPhone{top: 150px; left: 50%; transform: translateX(-50%); display: inline-block;font-size: 1.2em;}
     #map p{font-size: 1.2em; margin-top: 20px; line-height: 30px;}
-    body{overflow-x:hidden; }
+    body{overflow-x:hidden;}
+    #scrollTop{top: 15%;}
 }
+
+@media screen and (max-width:768px){
+    #logo{left: 20px;}
+    #nav ul li{width: 120px;}
+    .moduleHome{display: none;}
+    .poly{display: none;}
+    .climHome{left: 22%; width: 100%;}
+    .pattern{width: 55px;}
+    h1{font-size: 2.5em;}
+    #catch p{font-size: 2em;}
+    nav ul li{width: 200px;}
+    nav ul ul li{width: 180px;}
+    nav p{font-size: .8em; line-height: 70px;}
+    nav ul ul{top: 90px;}
+    .bgPac{min-height:calc(80vh - 50px);}
+    .bgPac h2{display: block; margin-left: 0;}
+    .bannerHidePac svg{width: 300px; top: -2px;}
+    .sub{margin-left: 0;}
+    .txt{margin: 20px 0 0 0; width: 350px;}
+    .titlepac{top: 100px;}
+    .title{left: 50px;}
+    .digit.visible{top: 250px;}
+    #modules{margin: 80px 0 0 50px}
+    .desc{width: 250px; padding: 30px 80px 30px 40px;}
+    .desc p{font-size: .8em; line-height: 20px;}
+    .revealNumber{font-size: 5em; width: 40px;}
+    .module img{width: 180px;}
+    #brand img{max-width: 100px;}
+    #produits{height: 195vh;}
+    #histImg{width: 38%; left: 8%; margin-top: 150px;}
+    .notreHistoire{left: 40%; width: 350px; height: 300px;}
+    #presentation{margin: 0 20px 20px 40px;}
+    #presentation p{width: 300px; font-size: .8em; line-height: 20px;}
+    #valeurs{margin: 120px 50px 0 50px;}
+    #icon_ecolo{width: 50px;}
+    .items p{font-size: .8em; line-height: 20px;}
+    .items img{width: 65px;}
+    #icon_prox{margin-top: 10px;}
+    .titleQuali{margin-top: 80px;}
+    #qualifications{margin: 50px;}
+    .card p{font-size: .9em; line-height: 22px; margin: 0 20px;}
+    .card{width: 200px; height: 350px;}
+    #mailPhone{top: 50px; left: 50%;}
+    #scrollTop{top: 8%;}
+    iframe{width: 500px; height: 300px;}
+    #map{margin: 150px 10px 10px 148px;}
+}
+
