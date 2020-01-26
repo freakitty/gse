@@ -1,5 +1,6 @@
 
 @media screen and (min-width:1440px){
+    .bannerHide svg{bottom: -16%;}
     .climHome{top: 20%; width: 70%;}
     .moduleHome{top: 39%; right: -5%; width: 32%;}
     h1{font-size: 3em; line-height: 55px;}
@@ -23,6 +24,7 @@
 }
 
 @media screen and (min-height:1366px){
+    .bgHome{min-height: calc(105vh - 45px);}
     .moduleHome{display: none;}
     .poly{display: none;}
     .climHome{left: 22%; width: 100%;}
@@ -30,6 +32,8 @@
     h1{font-size: 3em; line-height: 60px; margin-top: 15px;}
     #catch p{font-size: 2.2em; line-height: 45px;}
     .afford svg{width: 30px;}
+    .bannerHide svg{bottom: -6%;}
+    .bannerHidePac svg{top: -2px;}
     .bgPac{min-height: calc(70vh - 150px);}
     .digit.visible{left: 53%;}
     .titlepac{top: 120px;}
@@ -46,6 +50,7 @@
 }
 
 @media screen and (max-width:768px){
+    .bgHome{min-height: calc(105vh - 45px);}
     body{overflow-x: hidden;}
     #logo{left: 20px;}
     #nav ul li{width: 120px;}
@@ -54,7 +59,8 @@
     .climHome{left: 22%; width: 100%;}
     .pattern{width: 55px;}
     h1{font-size: 2.3em;}
-    #catch p{font-size: 1.9em;}
+    #catch p{font-size: 1.9em; line-height: 37px;}
+    .bannerHide svg{bottom: -9%;}
     nav ul li{width: 200px;}
     nav ul ul li{width: 180px;}
     nav p{font-size: .8em; line-height: 70px;}
@@ -70,7 +76,7 @@
     #modules{margin: 80px 0 0 50px}
     .desc{width: 250px; padding: 30px 80px 30px 40px;}
     .desc p{font-size: .8em; line-height: 20px;}
-    .revealNumber{font-size: 5em; width: 40px;}
+    .revealNumber{font-size: 4em; width: 40px;}
     .module img{width: 180px;}
     #brand img{max-width: 100px;}
     #produits{height: 195vh;}
@@ -101,6 +107,7 @@
     .pattern{width: 45px;}
     h1{font-size: 2em; line-height: 50px;}
     #catch p{font-size: 1.5em; line-height: 35px;}
+    .bannerHide svg{bottom: -4%;}
     .afford svg{bottom: 10%;}
     nav{margin: 50px;}
     .chauf_list{top: 182px;}
@@ -135,6 +142,7 @@
     #phone{margin-bottom: 40px;}
     #mailPhone{left: 15%;}
     #scrollTop{left: 85%;}
+    footer{font-size: .6em;}
 }
 
 @media screen and (max-width:414px){
@@ -145,6 +153,7 @@
     #nav ul li{width: 110px;}
     h1{line-height: 40px; font-size: 1.8em;}
     #catch{left: 40px;}
+    .bannerHide svg{bottom: -6%;}
     #catch p{font-size: 1.3em;}
     .bannerHidePac svg{display: none;}
     .bgPac h2{width: 320px;}
@@ -152,13 +161,16 @@
     .digit.visible{top: 90px; left: 60%;}
     #housepac{width: 45%;}
     #flower{width: 40px; top: 20px;}
-    .desc{padding: 30px 50px 30px 30px;}
-    .revealNumber{font-size: 3em;}
+    .desc{padding: 30px 50px 30px 30px; width: 230px;}
+    .revealNumber{font-size: 2.8em;}
     #modules{margin: 80px 0 0 15px;}
     #produits{height: 310vh;}
     .notreHistoire{width: 300px; padding: 20px;}
     #presentation{margin: 15px;}
-    #icon_ecolo{width: 30px;}
+    #valeurs{flex-wrap: wrap; margin: 130px 50px 0 50px}
+    .items p{width: 200px; margin-bottom: 30px;}
+    h5{margin-bottom: 5px;}
+    #icon_ecolo{width: 30px;margin-bottom: 20px;}
     .items img{width: 45px;}
     .titleQuali{margin-top: 50px;}
     .pattern{margin-bottom: 15px;}
@@ -167,12 +179,12 @@
     iframe{width: 350px; height: 250px;}
     #map{margin: 130px 10px 10px 30px;}
     #phone{margin-bottom: 20px;}
-    #mailPhone{top: 25px;}
+    #mailPhone{top: 25px; left: 12%;}
     #mailPhone img, #mailPhone svg{width: 30px;}
     #scrollTop{left: 80%;}
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width:384px){
     #nav ul{margin-left: 20px;}
     #housepac{width: 40%;}
     .digit.visible{left: 65%;}
@@ -183,5 +195,70 @@
     .desc p{width: 200px;}
     h2{font-size: 2em; margin-left:10px;}
     .module{margin-bottom: 80px;}
-    #produits{height:325vh;}
+    #produits{height:340vh;}
+    iframe{width: 300px; height: 200px;}
+    #map{margin: 120px 10px 10px 35px;}
+    #mailPhone img, #mailPhone svg{width: 20px;}
+    #mailPhone{font-size: .8em;}
+    #rge_logo{width: 35%;}
+    .titleContact .sub{width: 300px;}
+}
+
+@media screen and (max-width:375px){
+    #produits{height:329vh;}
+}
+
+@media screen and (max-width:360px){
+    #nav{font-size: .7em;}
+    #nav ul li{width: 100px;}
+    #nav ul{margin-left: 25px;}
+    #catch{left: 30px;}
+    .title{left: 30px;}
+    .bgPac{min-height: calc(130vh - 10px);}
+    #produits{height: 355vh;}
+    #histImg{width: 48%; margin: 20px 0 0 65px;}
+    .titleQuali p{margin:5px 10px;}
+}
+
+@media screen and (max-width:320px){
+    header{height: 52px;}
+    .bannerHide svg{bottom: -7%;}
+    #nav ul li{width: 80px;}
+    .climHome{width: 90%; top: 18%;}
+    #mail{width: 140px; font-size: .6em; line-height: 40px;}
+    #sticky{right: -55px; top: 25%;}
+    .pattern{width: 35px;}
+    h1{font-size: 1.1em; line-height: 25px;}
+    #catch{left: 20px; top: 40%;}
+    #catch p{font-size: .9em; line-height: 25px;}
+    .afford svg{width: 18px; bottom: 5%;}
+    .bgHome{min-height: calc(105vh - 25px);}
+    h2{font-size: 1.6em;}
+    .bgPac h2{width: 290px;}
+    .sub{font-size: .9em; line-height: 23px;}
+    .digit.visible{top: 30px;}
+    .title{left: 20px;}
+    .txt{width: 260px; font-size: .8em; line-height: 22px;}
+    .desc h4{font-size: 1.1em;}
+    .desc p{font-size: .7em; line-height: 18px;}
+    .module img{width: 140px;}
+    .desc{width: 200px;}
+    .revealNumber{font-size: 2em;}
+    nav{margin: 20px 50px;}
+    #produits{height: 390vh;}
+    #presentation p{width: 250px;}
+    .titleQuali p{margin: 5px 20px; font-size: .9em; }
+    .card p{font-size: .7em;line-height: 18px;}
+    .card img{width: 15%; margin: 15px 0 10px 0;}
+    #rge_logo{width: 30%;}
+    .card{height: 165px;}
+    .titleContact{top: 50px;}
+    .titleContact .sub{width: 260px;}
+    iframe{width: 250px; height: 160px;}
+    #map{margin: 80px 10px 10px 35px;}
+    #map p{font-size: .7em; line-height: 18px;}
+    #mailPhone{top: 20px; left: 8%;}
+    #phone{margin-bottom: 10px;}
+    #scrollTop img{width: 40px;}
+    #scrollTop{top: 7%;}
 }

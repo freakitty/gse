@@ -35,7 +35,7 @@ new ScrollMagic.Scene({
 
 new ScrollMagic.Scene({
     triggerElement: "#valeurs",
-    triggerHook: 0.9,
+    triggerHook: 0.6,
     duration: "80%",
     offset: 50
 })
@@ -45,7 +45,7 @@ new ScrollMagic.Scene({
 
 new ScrollMagic.Scene({
     triggerElement: "#qualifications",
-    triggerHook: 0.7,
+    triggerHook: 0.6,
     duration: "80%",
     offset: 50
 })

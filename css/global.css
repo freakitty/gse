@@ -100,6 +100,7 @@ header{
 .home{
     display: block;
     box-sizing: border-box;
+    overflow-y: hidden;
 }
 
 .bgHome{
@@ -133,7 +134,7 @@ header{
 
 .bannerHide svg{
     position: absolute;
-    bottom: -15px;
+    bottom: -22%;
     left: 0;
     right: 0;
     z-index: 500;
@@ -395,7 +396,7 @@ em{
 }
 
 .revealNumber{
-    color: #F7F7F7;
+    color: #ECECEC;
     font-size: 6.5em;
     font-weight: 700;
     width: 140px;
@@ -615,7 +616,7 @@ h5{
 }
 
 .titleQuali p{
-    margin-top: 5px;
+    margin: 5px 10px;
     line-height: 25px;
     color: #2B2B2B;
     font-size: 1.2em;
