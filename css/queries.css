@@ -2,7 +2,7 @@
     .bannerHide svg{bottom: -15%;}
     .climHome{width: 65%;}
     .moduleHome{top: 36%;}
-    #produits{height: 280vh;}
+
 }
 
 @media screen and (min-height:950px){
@@ -18,7 +18,7 @@
     .moduleHome{top: 39%; right: -5%; width: 32%;}
     h1{font-size: 3em; line-height: 55px;}
     #catch p{font-size: 2em; line-height: 40px;}
-    #produits{height: 270vh;}
+
     .pattern{width: 55px;}
     h2{font-size: 2.8em;}
     .titlepac{top: 100px;}
@@ -36,10 +36,70 @@
     #scrollTop{top: -10%;}
 }
 
+@media screen and (min-width:1680px){
+    .bgPac{min-height: calc(100vh - 70px);}
 
+    .module img{margin-left: 200px;}
+    .desc{width: 700px; padding:60px 150px 60px 50px;}
+    .climHome{left: 120px;}
+    #catch{left: 120px;}
+    h1{line-height: 65px;}
+    #catch p{line-height: 50px;}
+}
 
+@media screen and (min-width:1920px){
+    #housepac{width: 50%;}
+    .txt{font-size: 1.4em; line-height: 38px;}
+    .bannerHidePac svg{top: -2px;}
+    .bgPac{min-height: calc(100vh - 80px);}
+    .module img{margin-left: 250px;}
+    .desc{width: 750px; padding:60px 200px 60px 50px;}
+    .desc p{font-size: 1.2em; line-height: 28px;}
+    #histImg{width: 30%; left: 14%;}
+    .notreHistoire{width: 650px; height: 500px; left: 42%;}
+    #presentation{margin: 40px 20px 20px 70px;}
+    #presentation p{font-size: 1.3em; width: 470px; line-height: 33px;}
+}
 
-@media screen and (min-height:1366px){
+@media screen and (min-width:2560px){
+    .climHome{width: 65%; top: 18%;}
+    .pattern{width: 75px;}
+    h1{font-size: 4em; line-height: 85px;}
+    #catch p{font-size: 3em; line-height: 70px;}
+    .afford svg{width: 36px;}
+    .bgPac{min-height: calc(75vh - 95px);}
+    .bannerHidePac svg{width: 500px;}
+    #housepac{width: 40%;}
+    .digit.visible{left: 60%;}
+    .module img{width: 15%;}
+    .txt{width: 800px; font-size: 1.6em; line-height: 45px;}
+    .sub{font-size: 1.7em; line-height: 45px;}
+    .desc{width: 900px; padding: 70px 250px 70px 90px;}
+    .desc h4{font-size: 1.9em;}
+    .desc p{font-size: 1.6em; line-height: 45px;}
+    .titleBrand{padding-top: 100px;}
+    .notreHistoire{width: 900px; height: 650px;}
+    #presentation{margin: 80px 20px 20px 120px;}
+    h2{font-size: 3.8em;}
+    .revealNumber{font-size: 7em;}
+    #presentation p{font-size: 1.6em; line-height: 45px; width: 550px;}
+    .items img{width: 135px;}
+    #icon_ecolo{width: 110px;}
+    h5{font-size: 2.5em;}
+    .items p{font-size: 1.8em; line-height: 40px;}
+    .titleQuali p{font-size: 1.8em;}
+    .card{width: 400px; height: 480px;}
+    .card p{font-size: 1.4em; line-height: 35px;}
+    iframe{width: 1000px; height: 600px;}
+    #map p{font-size: 1.5em; line-height: 35px;}
+    #mailPhone{font-size: 1.7em;}
+    #mailPhone img, #mailPhone svg{width: 60px; margin-right: 40px;}
+    #phone{margin-bottom: 120px;}
+    #scrollTop img{width: 100px;}
+    #scrollTop{top: -5%;}
+}
+
+@media screen and (height:1366px){
     .bgHome{min-height: calc(105vh - 45px);}
     .moduleHome{display: none;}
     .poly{display: none;}
@@ -54,7 +114,6 @@
     .digit.visible{left: 53%;}
     .titlepac{top: 120px;}
     .desc{width: 300px;}
-    #produits{height: 165vh;}
     #histImg{left: 10%; width: 40%;}
     .notreHistoire{left: 47%;}
     iframe{width: 700px; height: 500px;}
@@ -95,7 +154,7 @@
     .revealNumber{font-size: 4em; width: 40px;}
     .module img{width: 180px;}
     #brand img{max-width: 100px;}
-    #produits{height: 195vh;}
+
     #histImg{width: 38%; left: 8%; margin-top: 150px;}
     .notreHistoire{left: 40%; width: 350px; height: 300px;}
     #presentation{margin: 0 20px 20px 40px;}
@@ -136,7 +195,7 @@
     .sub{width: 260px; font-size: 1.1em;}
     .digit.visible{top: 350px; left: 58%;}
     .txt{width: 260px;}
-    #produits{height: 285vh;}
+
     #modules{margin: 80px 0 0 20px;}
     .revealNumber{font-size: 4em;}
     #brand img{margin: 10px;}
@@ -180,7 +239,7 @@
     .desc{padding: 30px 50px 30px 30px; width: 230px;}
     .revealNumber{font-size: 2.8em;}
     #modules{margin: 80px 0 0 15px;}
-    #produits{height: 310vh;}
+
     .notreHistoire{width: 300px; padding: 20px;}
     #presentation{margin: 15px;}
     #valeurs{flex-wrap: wrap; margin: 130px 50px 0 50px}
@@ -211,7 +270,7 @@
     .desc p{width: 200px;}
     h2{font-size: 2em; margin-left:10px;}
     .module{margin-bottom: 80px;}
-    #produits{height:340vh;}
+
     iframe{width: 300px; height: 200px;}
     #map{margin: 120px 10px 10px 35px;}
     #mailPhone img, #mailPhone svg{width: 20px;}
@@ -220,9 +279,6 @@
     .titleContact .sub{width: 300px;}
 }
 
-@media screen and (max-width:375px){
-    #produits{height:329vh;}
-}
 
 @media screen and (max-width:360px){
     #nav{font-size: .7em;}
@@ -231,7 +287,7 @@
     #catch{left: 30px;}
     .title{left: 30px;}
     .bgPac{min-height: calc(130vh - 10px);}
-    #produits{height: 355vh;}
+
     #histImg{width: 48%; margin: 20px 0 0 65px;}
     .titleQuali p{margin:5px 10px;}
 }
@@ -261,7 +317,7 @@
     .desc{width: 200px;}
     .revealNumber{font-size: 2em;}
     nav{margin: 20px 50px;}
-    #produits{height: 390vh;}
+
     #presentation p{width: 250px;}
     .titleQuali p{margin: 5px 20px; font-size: .9em; }
     .card p{font-size: .7em;line-height: 18px;}

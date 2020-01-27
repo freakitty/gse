@@ -6,6 +6,9 @@ html{
     overflow-x: hidden;
 }
 
+body{
+    overflow-x: hidden;
+}
 /* ========================== HEADER ========================== */
 
 header{
@@ -100,7 +103,7 @@ header{
 .home{
     display: block;
     box-sizing: border-box;
-    overflow-y: hidden;
+    overflow: unset;
 }
 
 .bgHome{
@@ -199,15 +202,17 @@ h1{
 
 #produits{
     position: relative;
-    height: 315vh;
+    height: 100%;
     display: block;
     box-sizing: border-box;
     margin-top: 50px;
+    z-index: 520;
 }
 
 .title{
     position:relative;
     left: 80px;
+    z-index: 550;
 }
 
 .title > * {
