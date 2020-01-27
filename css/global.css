@@ -103,7 +103,7 @@ header{
 .home{
     display: block;
     box-sizing: border-box;
-    overflow: unset;
+    overflow: hidden;
 }
 
 .bgHome{
