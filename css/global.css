@@ -306,14 +306,14 @@ nav ul li:hover .downarrow{
     box-sizing: border-box;
 }
 
-.bannerHidePac svg{
+.bannerHidePac img{
     position: absolute;
     bottom: 0;
-    top: -1px;
+    top: -2px;
     right: 0;
     z-index: 400;
-    height: 101%;
-    width: 400px;
+    height: 102%;
+    width: 40%;
 }
 .titlepac{
     top: 80px;

@@ -2,14 +2,12 @@
     .bannerHide svg{bottom: -15%;}
     .climHome{width: 65%;}
     .moduleHome{top: 36%;}
-
 }
 
 @media screen and (min-height:950px){
     .bannerHide svg{bottom: -11%;}
     .climHome{width: 75%;}
     .moduleHome{right: -100px;width: 35%;}
-    
 }
 
 @media screen and (min-width:1440px){
@@ -18,7 +16,6 @@
     .moduleHome{top: 39%; right: -5%; width: 32%;}
     h1{font-size: 3em; line-height: 55px;}
     #catch p{font-size: 2em; line-height: 40px;}
-
     .pattern{width: 55px;}
     h2{font-size: 2.8em;}
     .titlepac{top: 100px;}
@@ -38,7 +35,6 @@
 
 @media screen and (min-width:1680px){
     .bgPac{min-height: calc(100vh - 70px);}
-
     .module img{margin-left: 200px;}
     .desc{width: 700px; padding:60px 150px 60px 50px;}
     .climHome{left: 120px;}
@@ -62,6 +58,12 @@
 }
 
 @media screen and (min-width:2560px){
+    header{height: 100px;}
+    #logo{width: 10%;}
+    #nav{font-size: 1.5em;}
+    #nav ul li{width: 350px;}
+    #mail{width: 350px; font-size: 1.5em; line-height: 90px; border-top-left-radius: 50px; border-top-right-radius:50px;}
+    #sticky{right: -130px;}
     .climHome{width: 65%; top: 18%;}
     .pattern{width: 75px;}
     h1{font-size: 4em; line-height: 85px;}
@@ -72,8 +74,8 @@
     #housepac{width: 40%;}
     .digit.visible{left: 60%;}
     .module img{width: 15%;}
-    .txt{width: 800px; font-size: 1.6em; line-height: 45px;}
-    .sub{font-size: 1.7em; line-height: 45px;}
+    .txt{width: 800px; font-size: 1.6em; line-height: 45px; margin-left: 100px;}
+    .sub{font-size: 1.7em; line-height: 45px; margin-left: 100px;}
     .desc{width: 900px; padding: 70px 250px 70px 90px;}
     .desc h4{font-size: 1.9em;}
     .desc p{font-size: 1.6em; line-height: 45px;}
@@ -99,6 +101,62 @@
     #scrollTop{top: -5%;}
 }
 
+@media screen and (min-width:4096px){
+    header{height: 200px;}
+    #logo{width: 13%;}
+    #nav{font-size: 2.3em;}
+    #nav ul li{width: 450px;}
+    #mail{width: 500px; line-height: 150px; font-size: 2em;border-top-left-radius: 70px; border-top-right-radius:70px;}
+    #sticky{right: -180px;}
+    .climHome{left: 250px;}
+    .pattern{width: 150px; margin-bottom: 20px;}
+    h1{font-size: 6em; line-height: 120px;}
+    #catch{left: 250px;}
+    #catch p{font-size: 4.5em; line-height: 100px;}
+    .afford svg{width: 63px;}
+    h2{font-size: 5em;}
+    nav{margin: 100px 0;}
+    nav ul li{width: 470px; margin: 0 45px;}
+    nav p{line-height: 200px; font-size: 2em;}
+    .downarrow{width: 40px;}
+    nav ul ul li{width: 390px; padding: 40px;}
+    nav ul ul{margin-left: -45px; font-size: 1.2em; top: 210px;}
+    .bannerHidePac img{top: -4px;}
+    .digit.visible{left: 50%;}
+    .sub{font-size: 3.7em; line-height: 75px; margin-left: 170px;}
+    .txt{width: 1500px; font-size: 3em; line-height: 70px; margin-left: 170px;}
+    #flower{width: 8%;}
+    .revealNumber{font-size: 11em;}
+    .module img{margin-left: 18%;}
+    .desc{width: 40%; padding: 150px 450px 150px 120px;}
+    .desc h4{font-size: 3.5em;}
+    .desc p{font-size: 2.5em; line-height: 70px;}
+    #modules{margin: 200px 0 0 150px;}
+    #brand img{max-width: 10%;}
+    .titlePres{margin-top: 150px;}
+    .notreHistoire{width: 1800px; height: 1200px;}
+    .titreHist{font-size: 5em;}
+    #presentation p{font-size: 3.5em; line-height: 70px; width: 1200px;}
+    #presentation{margin: 180px 20px 20px 320px;}
+    #histImg{margin-top: 250px;}
+    #icon_ecolo{width: 150px;}
+    .items img{width: 170px; margin-bottom: 50px;}
+    h5{font-size: 5em;}
+    .items p{font-size: 3em; line-height: 70px;}
+    .titleQuali p{font-size: 3.5em; margin: 25px 20px;}
+    .card{width: 860px; height: 950px;}
+    #qualifications{margin-top: 140px;}
+    .card p{font-size: 3em; line-height: 70px; margin: 0 70px;}
+    .card img{margin: 50px 0;}
+    #map{margin: 250px 10px 10px 250px;}
+    iframe{width: 1600px; height: 1000px;}
+    #map p{font-size: 3.5em; line-height: 70px;}
+    #mailPhone{font-size: 3em;}
+    #mailPhone img, #mailPhone svg{width: 85px;}
+    #scrollTop img{width: 180px;}
+    footer{font-size: 2em;}
+}
+
 @media screen and (height:1366px){
     .bgHome{min-height: calc(105vh - 45px);}
     .moduleHome{display: none;}
@@ -109,7 +167,6 @@
     #catch p{font-size: 2.2em; line-height: 45px;}
     .afford svg{width: 30px;}
     .bannerHide svg{bottom: -6%;}
-    .bannerHidePac svg{top: -2px;}
     .bgPac{min-height: calc(70vh - 150px);}
     .digit.visible{left: 53%;}
     .titlepac{top: 120px;}
@@ -142,7 +199,6 @@
     nav ul ul{top: 90px;}
     .bgPac{min-height:calc(80vh - 50px);}
     .bgPac h2{display: block; margin-left: 0;}
-    .bannerHidePac svg{width: 300px; top: -2px;}
     .sub{margin-left: 0;}
     .txt{margin: 20px 0 0 0; width: 350px;}
     .titlepac{top: 100px;}
@@ -154,7 +210,6 @@
     .revealNumber{font-size: 4em; width: 40px;}
     .module img{width: 180px;}
     #brand img{max-width: 100px;}
-
     #histImg{width: 38%; left: 8%; margin-top: 150px;}
     .notreHistoire{left: 40%; width: 350px; height: 300px;}
     #presentation{margin: 0 20px 20px 40px;}
@@ -187,15 +242,14 @@
     nav{margin: 50px;}
     .chauf_list{top: 182px;}
     .vent_list{top: 272px;}
-    .bannerHidePac svg{width: 200px;}
     .title{left: 35px;}
     .titlepac{top: 50px;}
     .bgPac{min-height: calc(120vh - 50px);}
+    .bannerHidePac img{display: none;}
     .bgPac h2{width: 220px; line-height: 40px;}
     .sub{width: 260px; font-size: 1.1em;}
     .digit.visible{top: 350px; left: 58%;}
     .txt{width: 260px;}
-
     #modules{margin: 80px 0 0 20px;}
     .revealNumber{font-size: 4em;}
     #brand img{margin: 10px;}
@@ -230,7 +284,6 @@
     #catch{left: 40px;}
     .bannerHide svg{bottom: -6%;}
     #catch p{font-size: 1.3em;}
-    .bannerHidePac svg{display: none;}
     .bgPac h2{width: 320px;}
     .txt{width: 300px;}
     .digit.visible{top: 90px; left: 60%;}
@@ -239,7 +292,6 @@
     .desc{padding: 30px 50px 30px 30px; width: 230px;}
     .revealNumber{font-size: 2.8em;}
     #modules{margin: 80px 0 0 15px;}
-
     .notreHistoire{width: 300px; padding: 20px;}
     #presentation{margin: 15px;}
     #valeurs{flex-wrap: wrap; margin: 130px 50px 0 50px}
@@ -270,7 +322,6 @@
     .desc p{width: 200px;}
     h2{font-size: 2em; margin-left:10px;}
     .module{margin-bottom: 80px;}
-
     iframe{width: 300px; height: 200px;}
     #map{margin: 120px 10px 10px 35px;}
     #mailPhone img, #mailPhone svg{width: 20px;}
@@ -287,7 +338,6 @@
     #catch{left: 30px;}
     .title{left: 30px;}
     .bgPac{min-height: calc(130vh - 10px);}
-
     #histImg{width: 48%; margin: 20px 0 0 65px;}
     .titleQuali p{margin:5px 10px;}
 }
@@ -317,7 +367,6 @@
     .desc{width: 200px;}
     .revealNumber{font-size: 2em;}
     nav{margin: 20px 50px;}
-
     #presentation p{width: 250px;}
     .titleQuali p{margin: 5px 20px; font-size: .9em; }
     .card p{font-size: .7em;line-height: 18px;}
