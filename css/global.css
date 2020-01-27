@@ -111,6 +111,7 @@ header{
     width: 100%;
     min-height: calc(110vh - 45px);
     background-color: #15AEA3;
+    overflow: hidden;
 }
 
 .container_clim{
