@@ -108,7 +108,6 @@ header{
 
 .bgHome{
     position: relative;
-    display: block;
     width: 100%;
     background-color: #15AEA3;
     overflow: hidden;
