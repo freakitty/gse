@@ -1,17 +1,18 @@
 @media screen and (min-height:800px){
-    .bannerHide svg{bottom: -15%;}
+    .bannerHide svg{bottom: -20%;}
     .climHome{width: 65%;}
-    .moduleHome{top: 36%;}
+    .moduleHome{top: 37%;}
 }
 
 @media screen and (min-height:950px){
-    .bannerHide svg{bottom: -11%;}
+    .bannerHide svg{bottom: -13%;}
+    .afford svg{bottom: 10%;}
     .climHome{width: 75%;}
     .moduleHome{right: -100px;width: 35%;}
 }
 
 @media screen and (min-width:1440px){
-    .bannerHide svg{bottom: -16%;}
+    .bannerHide svg{bottom: -22%;}
     .climHome{width: 70%;}
     .moduleHome{top: 39%; right: -5%; width: 32%;}
     h1{font-size: 3em; line-height: 55px;}
@@ -158,7 +159,6 @@
 }
 
 @media screen and (height:1366px){
-    .bgHome{min-height: calc(105vh - 45px);}
     .moduleHome{display: none;}
     .poly{display: none;}
     .climHome{top: 15%; left: 22%; width: 100%;}
@@ -182,7 +182,6 @@
 }
 
 @media screen and (max-width:768px){
-    .bgHome{min-height: calc(105vh - 45px);}
     body{overflow-x: hidden;}
     #logo{left: 20px;}
     #nav ul li{width: 120px;}
@@ -190,8 +189,9 @@
     .poly{display: none;}
     .climHome{left: 22%; width: 100%;}
     .pattern{width: 55px;}
-    h1{font-size: 2.3em;}
-    #catch p{font-size: 1.9em; line-height: 37px;}
+    h1{font-size: 2.3em;line-height: 55px;}
+    #catch p{font-size: 1.9em; line-height: 40px;}
+    .afford svg{bottom: 6%;}
     .bannerHide svg{bottom: -9%;}
     nav ul li{width: 200px;}
     nav ul ul li{width: 180px;}
@@ -230,15 +230,13 @@
 }
 
 @media screen and (max-width:480px){
-    .bgHome{min-height: calc(105vh - 45px);}
     #logo{display: none;}
     #logo_resp{display: inline-block;}
     #catch{top: 38%; left: 50px;}
     .pattern{width: 45px;}
-    h1{font-size: 2em; line-height: 50px;}
+    h1{font-size: 2em; line-height: 45px;}
     #catch p{font-size: 1.5em; line-height: 35px;}
     .bannerHide svg{bottom: -4%;}
-    .afford svg{bottom: 10%;}
     nav{margin: 50px;}
     .chauf_list{top: 182px;}
     .vent_list{top: 272px;}
@@ -282,8 +280,9 @@
     #nav ul li{width: 110px;}
     h1{line-height: 40px; font-size: 1.8em;}
     #catch{left: 40px;}
-    .bannerHide svg{bottom: -6%;}
+    .bannerHide svg{bottom: -5%;}
     #catch p{font-size: 1.3em;}
+    .afford svg{bottom: 5%; width: 18px;}
     .bgPac h2{width: 320px;}
     .txt{width: 300px;}
     .digit.visible{top: 90px; left: 60%;}
@@ -313,6 +312,10 @@
 
 @media screen and (max-width:384px){
     #nav ul{margin-left: 20px;}
+    .pattern{width: 35px;}
+    h1{font-size: 1.5em; width: 300px; line-height: 35px;}
+    #subcatch{width: 300px;}
+    #catch p{font-size: 1.1em; line-height: 30px;}
     #housepac{width: 40%;}
     .digit.visible{left: 65%;}
     .titlepac{top: 30px;}
@@ -330,7 +333,6 @@
     .titleContact .sub{width: 300px;}
 }
 
-
 @media screen and (max-width:360px){
     #nav{font-size: .7em;}
     #nav ul li{width: 100px;}
@@ -344,17 +346,16 @@
 
 @media screen and (max-width:320px){
     header{height: 52px;}
+    #subcatch{width: 280px;}
     .bannerHide svg{bottom: -7%;}
     #nav ul li{width: 80px;}
     .climHome{width: 90%; top: 18%;}
     #mail{width: 140px; font-size: .6em; line-height: 40px;}
     #sticky{right: -55px; top: 25%;}
-    .pattern{width: 35px;}
-    h1{font-size: 1.1em; line-height: 25px;}
-    #catch{left: 20px; top: 40%;}
+    .pattern{width: 30px;}
+    h1{font-size: 1.1em; line-height: 25px; width: 200px;}
+    #catch{top: 40%;}
     #catch p{font-size: .9em; line-height: 25px;}
-    .afford svg{width: 18px; bottom: 5%;}
-    .bgHome{min-height: calc(105vh - 25px);}
     h2{font-size: 1.6em;}
     .bgPac h2{width: 290px;}
     .sub{font-size: .9em; line-height: 23px;}

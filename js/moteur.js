@@ -86,3 +86,12 @@ $("#scrollTop").click(function(){
             scrollTop : 0
         }, 400);
 });
+
+var bg = $(".bgHome");
+
+function resizeBackground() {
+    bg.height($(window).height());
+}
+
+$(window).resize(resizeBackground);
+resizeBackground();

@@ -109,7 +109,6 @@ header{
 .bgHome{
     position: relative;
     width: 100%;
-    min-height: calc(110vh - 45px);
     background-color: #15AEA3;
     overflow: hidden;
 }
@@ -138,7 +137,7 @@ header{
 
 .bannerHide svg{
     position: absolute;
-    bottom: -22%;
+    bottom: -25%;
     left: 0;
     right: 0;
     z-index: 500;
