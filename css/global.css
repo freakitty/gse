@@ -394,6 +394,7 @@ em{
     position: relative;
     width: 100%;
     margin-bottom: 100px;
+    z-index: 442;
 }
 
 .module > * {
