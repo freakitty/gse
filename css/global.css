@@ -312,7 +312,6 @@ nav ul li:hover .downarrow{
     top: -2px;
     right: 0;
     z-index: 400;
-    height: 102%;
     width: 40%;
 }
 .titlepac{
@@ -696,6 +695,7 @@ h5{
     top: -48%;
     left: 57%;
     font-weight: 100;
+    text-decoration: none;
 }
 
 #mailPhone img, #mailPhone svg{
