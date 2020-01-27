@@ -46,9 +46,9 @@
 
 @media screen and (min-width:1920px){
     #housepac{width: 50%;}
-    .climHome{width: 60%;}
+    .climHome{width: 60%; top: 18%;}
     .afford svg{bottom: 13%;}
-    #catch{top: 50%;}
+    #catch{top: 49%;}
     .txt{font-size: 1.4em; line-height: 38px;}
     .bannerHidePac svg{top: -2px;}
     .bgPac{min-height: calc(100vh - 80px);}
