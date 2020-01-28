@@ -185,7 +185,7 @@
     #scrollTop{top: 15%;}
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:991px){
     body{overflow-x: hidden;}
     #logo{left: 20px;}
     #nav ul li{width: 120px;}
