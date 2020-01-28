@@ -171,6 +171,7 @@
     .afford svg{width: 30px;}
     .bannerHide svg{bottom: -6%;}
     .bgPac{min-height: calc(70vh - 150px);}
+    .bannerHidePac{display: none;}
     .digit.visible{left: 53%;}
     .titlepac{top: 120px;}
     .desc{width: 300px;}
@@ -201,6 +202,7 @@
     nav p{font-size: .8em; line-height: 70px;}
     nav ul ul{top: 90px;}
     .bgPac{min-height:calc(80vh - 50px);}
+    .bannerHidePac img{display: none;}
     .bgPac h2{display: block; margin-left: 0;}
     .sub{margin-left: 0;}
     .txt{margin: 20px 0 0 0; width: 350px;}
@@ -246,7 +248,6 @@
     .title{left: 35px;}
     .titlepac{top: 50px;}
     .bgPac{min-height: calc(120vh - 50px);}
-    .bannerHidePac img{display: none;}
     .bgPac h2{width: 220px; line-height: 40px;}
     .sub{width: 260px; font-size: 1.1em;}
     .digit.visible{top: 350px; left: 58%;}
